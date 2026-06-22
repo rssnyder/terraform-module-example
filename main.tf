@@ -1,4 +1,4 @@
-resource "null_resource" "previousss" {}
+resource "null_resource" "previoussss" {}
 
 resource "time_sleep" "wait_30_seconds" {
   depends_on = [null_resource.previous]
